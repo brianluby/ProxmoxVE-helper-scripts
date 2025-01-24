@@ -27,13 +27,21 @@ probe = FPing
 menu = Top
 title = Network Latency Grapher
 remark = Welcome to SmokePing.
-+ Local
-menu = Local
++ Homelab
+menu = Homelab
 title = Local Network (ICMP)
 ++ LocalMachine
-menu = Local Machine
 title = This host
 host = localhost
+++ fw1
+title = fw1
+host = fw1.luby.us
+++ vm1
+title = vm1
+host = vm1.luby.us
+++ vm2
+title = vm2
+host = vm2.luby.us
 + DNS
 menu = DNS latency
 title = DNS latency (ICMP)
